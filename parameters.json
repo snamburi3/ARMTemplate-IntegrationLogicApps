@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "workflows_name": {
-      "value": "GEN-UNIQUE"
+      "value": "GEN-UNIQUE2"
     },
     "integration_account_name": {
       "value": "azurequeue"
