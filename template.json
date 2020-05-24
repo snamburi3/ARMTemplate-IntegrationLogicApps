@@ -14,18 +14,6 @@
   "variables": {},
   "resources": [
     {
-      "type": "Microsoft.Logic/integrationAccounts",
-      "apiVersion": "2016-06-01",
-      "name": "[parameters('integration_account_name')]",
-      "location": "[resourceGroup().location]",
-      "sku": {
-        "name": "Free"
-      },
-      "properties": {
-        "state": "Enabled"
-      }
-    },
-    {
       "type": "Microsoft.Logic/workflows",
       "apiVersion": "2017-07-01",
       "name": "deploy123",
