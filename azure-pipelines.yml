@@ -20,7 +20,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: 'IntegrationAccount-LogicApp'
+    SourceFolder: 'ARMTemplate-IntegrationLogicApps'
     Contents: '*.json'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 - task: PublishBuildArtifacts@1
